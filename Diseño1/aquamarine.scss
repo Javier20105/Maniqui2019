@@ -23,8 +23,9 @@ $enable-print-styles:       true;
 // Colors
 
 $theme-colors: (
-  primary: #12bbad,
+  primary: #E8E3BC,
   secondary: #4f70ce,
+	tertiary: #F3EFCE,
   light: #f3f3f3,
   dark: #151515,
   info: #ccc,
@@ -129,8 +130,14 @@ body > * {
     width:100%;
     height: 100%;
     content: ' ';
-    background: linear-gradient(to bottom right, transparentize(theme-color("primary"), 0.1) 0%, transparentize(theme-color("secondary"), 0.1) 100%);
+    background: linear-gradient(to bottom right, transparentize(theme-color("primary"), 0.4) 0%, transparentize(theme-color("tertiary"), 0.6) 100%);
   }
+}
+
+
+.leyenda-style{
+font-size: 40px;
+
 }
 
 .section-dark {
@@ -203,7 +210,11 @@ body > * {
 
 .navbar-ontop {
   background-color: transparent !important;
-  color: black !important;
+  
+}
+
+.bg-primary{
+	background-color: "tertiary";
 }
 
 /* Animate on entrance */
