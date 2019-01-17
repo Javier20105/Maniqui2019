@@ -6690,7 +6690,7 @@ body > * {
     content: ' ';
     background: rgba(243, 243, 243, 0.75); }
 
-.section-parallax {
+.section-nosotros {
   background-attachment: fixed;
   background-size: cover;
   background-position: center; }
