@@ -35,12 +35,35 @@
 </head>
 
 <body class="text-center">
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-md fixed-top bg-primary text-uppercase font-weight-bold navbar-light" style="">
+  <!-- Navbar 1 -->
+  <nav class="navbar navbar-expand-md navbar-toggleable-md fixed-top bg-primary text-uppercase font-weight-bold navbar-light" style="">
+    <a class="d-block d-md-none navbar-brand" href="#">Motion Maniqui</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item mx-2 text-body" style="">
+          <a class="nav-link" href="#">inicio</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link" href="#nosotros">nosotros</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link" href="#descubre">descubre</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link" href="#contacto">contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Navbar 
+  <nav class="navbar navbar-expand-md navbar-toggleable-md fixed-top bg-primary text-uppercase font-weight-bold navbar-light" style="" >
     <div class="container">
-      <!-- <a class="navbar-brand" href="#">
+      <!--<<a class="navbar-brand" href="#">
         <img src="assets/conference/logo.png" width="30" height="30" alt="" >
-      </a> -->
+      </a> 
       <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item mx-2 text-body" style="">
@@ -60,35 +83,47 @@
     </div>
   </nav>
   <!-- Cover -->
-  <div class="d-flex align-items-center section-aquamarine py-5 cover" style="background-image: url(&quot;assets/conference/imgPortada.jpg&quot;);">
+  <div class="d-flex align-items-center section-aquamarine cover" style="background-image: url(&quot;assets/conference/fondo.png&quot;);">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-white mt-5">
-          <h1 class="d-none d-md-block text-dark text-uppercase font-weight-bold display-2" style="">Motion Maniqui</h1>
-          <h1 class="display-4 d-block d-md-none text-dark text-uppercase font-weight-bold" style="">Motion maniqui</h1>
+        <div class="col-lg-12 text-white" style="">
+          <img class="d-none d-md-block mx-auto" src="assets/conference/logo7.png" width="500" height="500" alt="">
+          <!-- logo en celular -->
+          <img class="d-block d-md-none mx-auto" src="assets/conference/logo7.png" width="400" height="400" alt="">
+          <!-- <h1 class="display-4 d-block d-md-none text-dark text-uppercase font-weight-bold" style="">Motion maniqui</h1> -->
           <p class="text-dark leyenda-style font-weight-bold w-100" style="">Escribir una leyenda aqui</p>
         </div>
       </div>
     </div>
   </div>
   <!-- nosotros section -->
-  <div class=" d-none d-md-block py-5  section-about" id="nosotros" style="background-image: url(&quot;assets/conference/imgPortada.png&quot;); width: 100%; height: 100%;">
-    <p class="d-none d-md-block text-dark font-weight-bold display-3 w-50 h-50"> Nombre de producto :v</p>
-    <p class="d-none d-md-block text-dark font-weight-bold w-50 leyenda-style"> [Caracteristicas importantes] por qué deberia comprar esta cosa?</p>
+  <div class="  d-none d-lg-block py-5  section-about" id="nosotros" style="background-image: url(&quot;assets/conference/fondo2.jpg&quot;); width: 100%; height: 100%;">
+    <div class="container">
+      <p class="d-none d-md-block text-dark font-weight-bold display-3 w-100 h-50 px-5"> Nombre de producto :v</p>
+      <p class="d-none d-md-block text-dark font-weight-bold w-100 leyenda-style px-5" draggable="true"> [Caracteristicas importantes] por qué deberia comprar esta cosa?</p>
+    </div>
+  </div>
+  <!-- nosotros section pero en tablet -->
+  <div class="  d-none d-md-block d-lg-none py-5  section-about" id="nosotros" style="background-image: url(&quot;assets/conference/fondoTablet.jpg&quot;); width: 100%; height: 100%;">
+    <div class="container">
+      <p class="d-none d-md-block text-dark font-weight-bold  w-100 h-30 px-5 text-left" style="font-size: 40px"> Nombre de producto :v</p>
+      <p class="d-none d-md-block text-dark font-weight-bold w-50 leyenda-style px-5 text-left"> [Caracteristicas importantes] por qué deberia comprar esta cosa?</p>
+    </div>
   </div>
   <!-- nosotros section pero en celular -->
-  <div class=" d-block d-md-none py-0  section-about" id="nosotros" style="background-color:rgb(238,236,226)">
-    <p class="d-block d-md-none text-dark font-weight-bold display-4 w-100 h-30"> Nombre de producto :v</p>
-    <p class="d-block d-md-none text-dark font-weight-bold w-100 leyenda-style"> [Caracteristicas importantes] por qué deberia comprar esta cosa?</p>
+  <div class=" d-block d-md-none  section-about" id="nosotros" style="background-image: url(&quot;assets/conference/fondoCelular.jpg&quot;); width: 100%; height: 100%;">
+    <p class="d-block d-md-none text-dark font-weight-bold w-50 h-30 py-5" style="font-size: 40px"> Nombre de producto :v</p>
+    <p class="d-block d-md-none text-dark font-weight-bold w-50 leyenda-style" style="font-size: 30px"> [Caracteristicas importantes] por qué deberia comprar esta cosa?</p>
   </div>
   <!-- descubre -->
-  <div class="py-5 bg-light" id="descubre">
+  <div class="py-5 bg-2ight" id="descubre">
     <div class="container-fluid pb-video-container">
       <div class="col-md-10 offset-md-1">
         <h1 class="text-xs-center pb-3 display-3 font-weight-bold" style="">Descubre</h1>
         <div class="row pb-row">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen=""></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8K3lTdGF6-c" allowfullscreen=""></iframe>
           </div>
           <!-- <div class="col-md-3 pb-video pb-3" >
             <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/K68UrdUOr2Y?list=RDzuAcaBkcYGE?ecver=1" frameborder="0" allowfullscreen=""></iframe>
@@ -123,42 +158,18 @@
           <div class="col-md-3 pb-video">
             <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/Jr4TMIU9oQ4?ecver=1" frameborder="0" allowfullscreen=""></iframe>
             <label class="form-control label-warning text-xs-center">INNA - Gimme Gimme</label>
-          </div> -->;
+          </div> -->
         </div>
       </div>
     </div>
   </div>
   <!-- Footer -->
-  <footer class="text-md-left text-center p-4 bg-dark text-light">
-    <div class="container" id="contacto">
-      <div class="row">
-        <div class="my-3 col-lg-5 col-md-10" style="">
-          <p class="text-light font-weight-bold leyenda-style"> Contactenos </p>
-          <h4> e-mail: motionmaniqui@gmail.com </h4>
-        </div>
-        <!-- <div class="my-3 col-lg-3" >
-          <h3>Follow</h3>
-          <a href="https://www.facebook.com" target="blank"><i class="fa fa-facebook-square text-muted fa-3x m-2"></i></a>
-          <a href="https://www.instagram.com" target="blank"><i class="fa fa-3x fa-instagram text-muted m-2"></i></a>
-          <a href="https://twitter.com" target="blank"><i class="fa fa-3x fa-twitter m-2 text-muted"></i></a>
-          <a href="https://plus.google.com" target="blank"><i class="fa fa-3x fa-google-plus-official text-muted m-2"></i></a>
-          <a href="https://pinterest.com" target="blank"><i class="fa fa-3x text-muted fa-pinterest-p m-2"></i></a>
-          <a href="https://www.youtube.com" target="blank"><i class="fa fa-3x text-muted fa-youtube-play m-2"></i></a>
-        </div> -->
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p class="text-muted">© Copyright 2018 Pingendo - All rights reserved. </p>
-        </div>
-      </div>
-    </div>
-  </footer>
   <!-- JavaScript dependencies -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" style=""></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous" style=""></script>
   <!-- Script: Smooth scrolling between anchors in the same page -->
-  <script src="js/smooth-scroll.js"></script>
+  <script src="js/smooth-scroll.js" style=""></script>
   <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
